@@ -1,7 +1,7 @@
 import time
 import pandas as pd
 import numpy as np
-
+# files used in the project
 CITY_DATA = { 'chicago': 'chicago.csv',
               'new york city': 'new_york_city.csv',
               'washington': 'washington.csv' }
@@ -215,6 +215,7 @@ def main():
 
         restart = input('\nWould you like to restart? Enter yes or no.\n')
         if restart.lower() != 'yes':
+            print('program closing')
             break
 
 
